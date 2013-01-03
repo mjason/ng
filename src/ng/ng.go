@@ -4,6 +4,7 @@ import (
 	"create"
 	"dev"
 	"fmt"
+	"install"
 	"os"
 )
 
@@ -13,7 +14,7 @@ func main() {
 	} else if os.Args[1] == "init" {
 		create.CreateProject()
 	} else if os.Args[1] == "install" {
-		// coding
+		install.Install()
 	} else if os.Args[1] == "dev" {
 		dev.Gopath()
 	} else {

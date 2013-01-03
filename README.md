@@ -11,6 +11,5 @@ ng install 安装project需要的第三方库（未实现）
 cd ~/develop/go
 mkdir test1
 cd test1
-```
-
 ng init
+```
