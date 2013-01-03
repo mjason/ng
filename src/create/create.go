@@ -15,7 +15,7 @@ func CreateProject() {
 		if err != nil {
 			panic(err)
 		}
-		fmt.Printf("创建 %s, ......... ok !!!!", v)
+		fmt.Printf("创建 %s, ......... ok !!!! \n", v)
 	}
 
 	for _, v := range fileLists {
