@@ -1,1 +1,0 @@
-export GOPATH=/Users/jay1/develop/go/ng
